@@ -43,10 +43,6 @@ class Solution17 {
                 ans.add(s.substring(i, i + L));
             }
         }
-        // Make tests fail
-        ans = new ArrayList<String>(){{
-            add(" ");
-        }};
         return ans;
     }
 }
